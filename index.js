@@ -28,11 +28,20 @@ document.addEventListener('DOMContentLoaded', function() {
   console.log(firstNameInput, lastNameInput);
 
   var firstNameValue = firstNameInput.value;
-  console.log(firstNameValue);
-
   var lastNameValue = lastNameInput.value;
-  console.log(lastNameValue);
+  console.log(firstNameValue, lastNameValue);
 
+
+  //input actual tag
+  //Value = actual Value
+  var p = document.createElement('p');
+  p.innerHTML = firstNameValue + ' ' + lastNameValue;
+  console.log(p);
+
+  //how do i add an element to the page in Javascript?
+  //select the user container
+  var userContainer = document.querySelector('.user-container');
+  userContainer.appendChild(p);
 
   })
 
