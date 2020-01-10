@@ -61,3 +61,21 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 //console.log(2);
+
+
+//DOM = all elements on the page
+//DOMContentLoader = waiting for the page to load
+/// homework button
+document.addEventListener('DOMContentLoaded', function (){
+  //code goes here
+  //select the button
+  //add click event listenter to the button
+  var button = document.querySelector('.btn');
+  //add click event listener to the button
+  button.addEventListener('click', function () {
+    alert('button works');
+
+  // here is where you would add anything you would
+  //like to happen when the button is clicked
+  });
+});
