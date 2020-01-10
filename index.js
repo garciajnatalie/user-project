@@ -1,3 +1,11 @@
+/*
+document - virtual representation of entire page
+variable - a way to save a piece of data, so it can be used later
+event listener - a way to register events that happen in the browser
+string - piece of text
+element - virtual reprenentation of html page
+*/
+
 //var hello = 'hello';
 
 //at the end of a statement put a semicolon
@@ -41,6 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
   //how do i add an element to the page in Javascript?
   //select the user container
   var userContainer = document.querySelector('.user-container');
+  // add the p tag to the userContainer
   userContainer.appendChild(p);
 
   })
