@@ -16,6 +16,20 @@ document.addEventListener('DOMContentLoaded', function() {
     console.log('form submitted');
   })
 
+// try to select .first-name in variable
+
+//first_name_input = snake case
+//first-name-input = kebab case
+
+//camel case = convention
+// select first name input and last name input
+  var firstNameInput = document.querySelector('.first-name');
+  var lastNameInput = document.querySelector('.last-name');
+  console.log(firstNameInput, lastNameInput);
+
+
+
+
 
      //alert('hello');
      //2 1 on the page. what this is doing is waiting for the page to be fully loaded until code runs document.addEventListener is important and we'll need to most projects
